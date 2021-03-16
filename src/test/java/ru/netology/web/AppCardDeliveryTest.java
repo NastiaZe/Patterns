@@ -1,4 +1,4 @@
-package ru.netology;
+package ru.netology.web;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static org.openqa.selenium.By.cssSelector;
-import static ru.netology.DataGenerator.*;
+import static ru.netology.web.DataGenerator.*;
 
 
 public class AppCardDeliveryTest {
